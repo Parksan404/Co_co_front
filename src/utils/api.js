@@ -7,7 +7,7 @@ function FRONTEND_URL() {
 
   return isDevelopment
     ? "http://localhost:3000"
-    : "https://cococatfrontend.vercel.app";
+    : "https://co-co-front.vercel.app";
 }
 
 function BASE_URL() {
@@ -17,7 +17,7 @@ function BASE_URL() {
 
   return isDevelopment
     ? "http://localhost:8700"
-    : "https://cococatbackend.vercel.app";
+    : "https://co-co-back.vercel.app";
 }
 
 const BASE = BASE_URL();
